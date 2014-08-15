@@ -1,0 +1,22 @@
+body{
+	background: linear-gradient(left bottom, rgb(194,199,48) 27%, rgb(82,110,80) 64%);
+	background: -moz-linear-gradient(left bottom, rgb(194,199,48) 27%, rgb(82,110,80) 64%);
+	background: -webkit-linear-gradient(left bottom, rgb(194,199,48) 27%, rgb(82,110,80) 64%);
+}
+
+h1  {
+	background: linear-gradient(45deg, #f00, #ff0);
+	background: -moz-linear-gradient(45deg, #f00, #ff0);
+	background: -webkit-linear-gradient(45deg, #f00, #ff0);
+	background-origin: border-box;
+    -moz-background-origin: border;
+	border: 4px solid transparent;    
+    border-radius: 8px;
+    box-shadow:
+        inset 0 0 12px #0cc, /* Inset shadow */
+        0 0 12px #0cc, /* Outset shadow */
+        inset -999px 0 0 #fff; /* The background color */   
+    margin: 0 auto;
+    text-align: center;
+    width: 550px;
+}
